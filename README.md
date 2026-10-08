@@ -19,6 +19,24 @@ El navegador nunca toca la API key: toda la generación ocurre en `POST /api/cha
 - Atajos: `Enter` envía, `Shift+Enter` salto de línea. Textarea accesible, foco visible, `prefers-reduced-motion`.
 - Responsive: en desktop el panel es sidebar; en mobile/tablet es drawer. Tabs Chat / Experiment Lab.
 
+## Capturas
+
+Vista general con empty state y selector de modelos del registry:
+
+![Chat y selector de modelos](public/screenshots/Chat_Modelos.png)
+
+Respuesta real con Markdown, metadata de uso (modelo, latencia, tokens) y acción de copiar:
+
+![Respuesta del modelo con metadata](public/screenshots/Respuesta.png)
+
+Sliders de Temperature, Max Output Tokens, Top-P y Top-K con rangos, explicaciones y aviso de Gemini 3.x:
+
+![Panel de parámetros](public/screenshots/Parametros_Modelo.png)
+
+Experiment Lab comparando Config A (formal, T=0.0) vs Config B (pirata, T=1.5) con el mismo prompt:
+
+![Experiment Lab A/B](public/screenshots/Experimentacion.png)
+
 ## Stack
 
 | Capa | Elección |
